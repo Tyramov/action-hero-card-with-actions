@@ -12,56 +12,58 @@
 </head>
 <body>
   <div class="grid island-1-2">
-    <div class="unit xs-1 s-1 m-1-2 l-1-3 relative">
-      <article class="action-card">
-        <header>
-          <menu class="action-tools-top absolute pin-right-top island-1-2">
-            <li class="action-btn btn">
+    <article class="action-card relative unit xs-1 s-1 m-1-2 l-1-3">
+      <header class="action-tools-top absolute">
+        <menu>
+          <li>
+            <button class="action-btn">
               <i class="icon i-1">
-                <svg><use xlink:href="images/icons.svg#fullscreen" /></svg>
+                <svg><use xlink:href="images/icons.svg#fullscreen"></use></svg>
               </i>
-            </li>
-            <li class="action-btn btn">
+            </button>
+          </li>
+          <li>
+            <button class="action-btn">
               <i class="icon i-1">
-                <svg><use xlink:href="images/icons.svg#download" /></svg>
+                <svg><use xlink:href="images/icons.svg#download"></use></svg>
               </i>
-            </li>
-          </menu>
-          <picture class="img-flex">
-            <source media="(min-width:60em)" srcset="images/blue-bolt-975-2x.jpg 2x, images/blue-bolt-975.jpg 1x">
-            <source media="(min-width:38em)" srcset="images/blue-bolt-480-2x.jpg 2x, images/blue-bolt-480.jpg 1x">
-            <img class="img-flex" srcset="images/blue-bolt-480-2x.jpg 1000w, images/blue-bolt-480.jpg 320w" sizes="(min-width: 38em) 38em, 60em" src="images/blue-bolt-480.jpg" alt="">
-          </picture>
-        </header>
-        <footer class="action-tools-bottom">
-          <h2 class="gutter-1-2">Blue Bolt, Series 6D, № 4</h2>
-          <p class="gutter-1-2">Blue Bolt, the human lightning streak, in weird & fantastic stories of the unknown.</p>
-          <menu class="action-tools-bottom push-0 gutter-1-2">
-            <li class="action-btn btn">
-              <button>
-                <i class="icon i-1">
-                  <svg><use xlink:href="images/icons.svg#heart" /></svg>
-                </i>
-              </button>
-            </li>
-            <li class="action-btn btn">
-              <button>
-                <i class="icon i-1">
-                  <svg><use xlink:href="images/icons.svg#share" /></svg>
-                </i>
-              </button>
-            </li>
-            <li class="action-btn btn">
-              <button>
-                <i class="icon i-1">
-                  <svg><use xlink:href="images/icons.svg#comment" /></svg>
-                </i>
-              </button>
-            </li>
-          </menu>
-        </footer>
-      </article>
-    </div>
+            </button>
+          </li>
+        </menu>
+      </header>
+      <picture>
+        <img class="img-flex" src="images/blue-bolt-480.jpg" srcset="images/blue-bolt-975.jpg 1000w, images/blue-bolt-480.jpg 320w" sizes="(min-width: 38em) 50vw, 100vw" alt="A dinosaur attacking men">
+      </picture>
+      <div class="island-1-2">
+        <h2 class="push-0">Blue Bolt, Series 6D, № 4</h2>
+        <p class="push-0 pad-t-1-4">Blue Bolt, the human lightning streak, in weird & fantastic stories of the unknown.</p>
+      </div>
+      <footer class="action-tools-bottom">
+        <menu class="pad-b-1-2">
+          <li>
+            <button class="btn action-btn">
+              <i class="icon i-1">
+                <svg><use xlink:href="images/icons.svg#heart"></use></svg>
+              </i>
+            </button>
+          </li>
+          <li>
+            <button class="btn action-btn">
+              <i class="icon i-1">
+                <svg><use xlink:href="images/icons.svg#share"></use></svg>
+              </i>
+            </button>
+          </li>
+          <li>
+            <button class="btn action-btn">
+              <i class="icon i-1">
+                <svg><use xlink:href="images/icons.svg#comment"></use></svg>
+              </i>
+            </button>
+          </li>
+        </menu>
+      </footer>
+    </article>
   </div>
 </body>
 </html>
